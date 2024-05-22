@@ -10,7 +10,7 @@ class Database {
     public static getInstance(): Sequelize {
         if (!Database._isntance) {
             Database._isntance = new Sequelize(
-                "sms-backend", 
+                "stem_sms", 
                 "root",
                 "123456",
                 {
